@@ -1,0 +1,62 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+swiper-container {
+  width: 100%;
+  height: 100%;
+}
+
+swiper-slide {
+  text-align: center;
+  background: transparent;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+swiper-container::part(button-prev),
+swiper-container::part(button-next) {
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 8px;
+  border-radius: 50%;
+  width: 44px;
+  height: 44px;
+  transition: all 0.3s ease;
+  margin: 0 1rem;
+}
+
+swiper-container::part(button-prev):hover,
+swiper-container::part(button-next):hover {
+  background-color: rgba(0, 0, 0, 0.8);
+  transform: scale(1.1);
+}
+
+swiper-container::part(pagination) {
+  bottom: 1rem !important;
+}
+
+swiper-container::part(pagination-bullet) {
+  background-color: white;
+  opacity: 0.5;
+  width: 8px;
+  height: 8px;
+  margin: 0 6px;
+  transition: all 0.3s ease;
+}
+
+swiper-container::part(pagination-bullet-active) {
+  background-color: white;
+  opacity: 1;
+  transform: scale(1.2);
+}
+
+@keyframes blink {
+  0%, 100% { opacity: 1; }
+  50% { opacity: 0; }
+}
+
+.animate-blink {
+  animation: blink 1s infinite;
+}
