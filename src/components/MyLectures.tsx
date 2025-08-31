@@ -32,7 +32,7 @@ const lectures: Lecture[] = [
   },
   {
     institute: 'Indrayani-Pune',
-    topic: 'Education in Astronomy',
+    topic: 'Introductory Astronomy and Carreer Opportunities',
     date: '23 August 2025',
     description: 'A talk focused on the importance of making astronomy education accessible and engaging for all age groups.',
     image: 'https://d4.alternativeto.net/Ty3JiOw0J4K3JE88cjAdZLYH3b10Y0t8Kp3wgbwcqJM/rs:fit:2400:2400:0/g:ce:0:0/YWJzOi8vZGlzdC9zLzhjNzljYjExLWZkOTctZTMxMS04OWNlLTAwMjU5MGEwNWY1Zl8yX2Z1bGwuanBn.jpg',
