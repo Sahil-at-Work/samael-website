@@ -15,8 +15,8 @@ const AboutSection = () => {
         alt="Person coding on laptop"
         className="w-full object-cover object-top h-full"
       />
-    <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-500 rounded-full opacity-20 z-0"></div>
- 
+      <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-500 rounded-lg opacity-20 z-0">     </div>
+
     </div>
   </div>
 
