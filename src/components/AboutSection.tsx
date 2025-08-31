@@ -5,7 +5,7 @@ const AboutSection = () => {
     <Section
       id="about"
       title="About Me"
-      subtitle="Electronics & Telecommunication Engineering Student | Astronomy Enthusiast | Cybersecurity Advocate"
+      subtitle="Engineering Student | Astronomy Enthusiast | Cybersecurity Advocate"
     >
 <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
   <div className="relative w-full flex justify-center">
@@ -23,7 +23,10 @@ const AboutSection = () => {
 
         <div className="space-y-6">
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            I am a B.Tech student in Electronics and Telecommunication at Vishwakarma Institute of Technology, Pune, 
+            I am now persuing *M.Tech* in Internet of Things -IoT from Veermata Jijabai Technological Institute- VJTI, Mumbai
+          </p>
+          <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
+            I completed my B.Tech in Electronics and Telecommunication at Vishwakarma Institute of Technology, Pune, 
             maintaining a CGPA of 8.4. My passion lies at the intersection of Physics, Communication Engineering, and 
             Data-Driven approaches, demonstrated through award-winning projects and research contributions.
           </p>
