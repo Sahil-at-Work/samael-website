@@ -11,13 +11,25 @@ const visits = [
     place: 'Giant Meterwave Radio Telescope (GMRT), Pune',
     date: '23 Feb 2024',
     description: 'Science Day',
-    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+    image: 'https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/cm2wo0tyc0000wmkkl4nb6r97/74144542-26c4-4557-a5f1-191155784b29.png/public',
   },
   {
     place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     date: '28 Feb 2024',
     description: 'Science Day',
     image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+  },
+  {
+    place: 'Instrumentation Labs (IUCAA), Pune',
+    date: '30 May 2024',
+    description: 'Science Day',
+    image: 'https://github.com/Auriel3003/samael/assets/103866475/ad438e14-63fd-4ca7-b364-7f1a7018a0cf',
+  },
+  {
+    place: 'Precission and Quantum Measurements Lab (IUCAA), Pune',
+    date: '31 May 2024',
+    description: 'Science Day',
+    image: 'https://github.com/Auriel3003/samael/assets/103866475/89383a2d-4c28-4f7b-98d3-27b79f9958ed',
   },
   {
     place: 'Giant Meterwave Radio Telescope (GMRT), Pune',
