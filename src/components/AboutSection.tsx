@@ -23,7 +23,7 @@ const AboutSection = () => {
 
         <div className="space-y-6">
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            I am now persuing *M.Tech* in Internet of Things -IoT from Veermata Jijabai Technological Institute- VJTI, Mumbai
+            I am now persuing M.Tech in Internet of Things -IoT from Veermata Jijabai Technological Institute- VJTI, Mumbai
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
             I completed my B.Tech in Electronics and Telecommunication at Vishwakarma Institute of Technology, Pune, 
