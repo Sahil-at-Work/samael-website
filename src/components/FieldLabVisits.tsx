@@ -2,17 +2,41 @@ import React from 'react';
 
 const visits = [
   {
-    place: 'IUCAA, Pune',
-    date: '15 March 2024',
-    description: 'A visit to the Inter-University Centre for Astronomy and Astrophysics to observe research facilities and discuss ongoing projects.',
+    place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    date: '26 Feb 2023',
+    description: 'Science Day',
     image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
   },
   {
-    place: 'NCRA-TIFR, Pune',
-    date: '12 June 2025',
-    description: 'A detailed tour of the Giant Metrewave Radio Telescope (GMRT) and a discussion on its role in advancing radio astronomy.',
-    image: 'https://images.unsplash.com/photo-1517976075199-f47ff78e12f6',
+    place: 'Giant Meterwave Radio Telescope (GMRT), Pune',
+    date: '23 Feb 2024',
+    description: 'Science Day',
+    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
   },
+  {
+    place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    date: '28 Feb 2024',
+    description: 'Science Day',
+    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+  },
+  {
+    place: 'Giant Meterwave Radio Telescope (GMRT), Pune',
+    date: '17 Jan 2025',
+    description: 'Science Day',
+    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+  },
+  {
+    place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    date: '28 Feb 2025',
+    description: 'Science Day',
+    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+  }
+  {
+    place: 'Nehru Planetarium, Mumbai',
+    date: '27 July 2025',
+    description: 'Science Day',
+    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+  }
 ];
 
 const FieldLabVisits = () => {

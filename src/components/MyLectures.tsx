@@ -10,6 +10,12 @@ interface Lecture {
 
 const lectures: Lecture[] = [
   {
+    institute: 'Inter University Centre for Astronomy and Astrophysics',
+    topic: 'Horn Antenna Workshop',
+    date: '11-13 April 2023',
+    description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
+    image: 'https://picsum.photos/id/237/400/300',
+  },{
     institute: 'Vishwakarma Institute of Technology (VIT-Pune)',
     topic: 'Evolution of Astronomy from Implications to Implementations',
     date: '11 August 2023',
