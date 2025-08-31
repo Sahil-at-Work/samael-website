@@ -10,9 +10,23 @@ interface Lecture {
 
 const lectures: Lecture[] = [
   {
-    institute: 'VIIT-Pune',
-    topic: 'Intro to Radio Astronomy',
-    date: '27 October 2024',
+    institute: 'Vishwakarma Institute of Technology (VIT-Pune)',
+    topic: 'Evolution of Astronomy from Implications to Implementations',
+    date: '11 August 2023',
+    description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
+    image: 'https://picsum.photos/id/237/400/300',
+  },
+  {
+    institute: 'Symbiosis Institute of Technology (SIT-Pune)',
+    topic: 'Engineering Challenges and Opportunities in Astronomy',
+    date: '01 August 2024',
+    description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
+    image: 'https://picsum.photos/id/237/400/300',
+  },
+  {
+    institute: 'Vishwakarma Institute of Information Technology (VIIT-Pune)',
+    topic: 'Signals to Stars',
+    date: '11 January 2025',
     description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
     image: 'https://picsum.photos/id/237/400/300',
   },
