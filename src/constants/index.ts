@@ -126,7 +126,7 @@ export const PROJECTS: Project[] = [
   },
   {
     title: 'Affordable Small Radio Telescope (ASRT)',
-    category: 'Hardware',
+    category: 'Communication',
     period: 'Jan\'24 - Jun\'24',
     description: 'Created an innovative radio telescope using DTH equipment for Ku-Band observations. Implemented super heterodyne receiver for solar activity monitoring.',
   },
