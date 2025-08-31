@@ -64,6 +64,13 @@ export const SERVICES: Service[] = [
 
 export const EXPERIENCE: TimelineItem[] = [
   {
+    title: 'Software Analyst',
+    organization: 'Truein.Inc',
+    period: 'Aug\'24 - April\'25',
+    description: 'Software Quality Analyst maintaining Manual and Automated testing environments for Facial and Geospatial Attendance Management System for Contractual Workforce.',
+    link: 'https://www.bmc.com'
+  },  
+  {
     title: 'Product Support',
     organization: 'BMC Software.Inc',
     period: 'Jan\'24 - Jun\'24',
@@ -95,9 +102,16 @@ export const EXPERIENCE: TimelineItem[] = [
 
 export const EDUCATION: TimelineItem[] = [
   {
+    title: 'M.Tech in Internet of Things',
+    organization: 'Veermata Jijabai Technological University, Mumbai',
+    period: 'Present',
+    description: '',
+    link: 'https://www.vit.edu'
+  },
+  {
     title: 'B.Tech in Electronics and Telecommunication',
     organization: 'Vishwakarma Institute of Technology, Pune',
-    period: 'Present',
+    period: 'July 2022 - July 2025',
     description: 'Maintaining a CGPA of 8.4. Former President of Antariksh (Astronomy Club). Focus on innovation and research in communications and AI.',
     link: 'https://www.vit.edu'
   },
