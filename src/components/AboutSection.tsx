@@ -8,15 +8,17 @@ const AboutSection = () => {
       subtitle="Electronics & Telecommunication Engineering Student | Astronomy Enthusiast | Cybersecurity Advocate"
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
-        <div className="relative">
-          <img
-            src="https://media.licdn.com/dms/image/v2/D5622AQFmQnoRRdm2vA/feedshare-shrink_1280/feedshare-shrink_1280/0/1690176262751?e=1759363200&v=beta&t=wPADsRrTktvPdA8hRMRo4uT1CSO0Hqhd3lxGQuLL4G0"
-            alt="Person coding on laptop"
-            className="rounded-lg shadow-xl w-full relative z-10"
-          />
+        <div className="relative w-full overflow-hidden">
+          <div className="aspect-square w-full relative">
+            <img
+              src="https://media.licdn.com/dms/image/v2/D5622AQFmQnoRRdm2vA/feedshare-shrink_1280/feedshare-shrink_1280/0/1690176262751?e=1759363200&v=beta&t=wPADsRrTktvPdA8hRMRo4uT1CSO0Hqhd3lxGQuLL4G0"
+              alt="Person coding on laptop"
+              className="absolute top-0 left-0 w-full object-cover rounded-lg shadow-xl"
+            />
+          </div>
           <div className="absolute -bottom-6 -right-6 w-48 h-48 bg-blue-500 rounded-lg opacity-20 z-0"></div>
         </div>
-        
+                
         <div className="space-y-6">
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
             I am a B.Tech student in Electronics and Telecommunication at Vishwakarma Institute of Technology, Pune, 
