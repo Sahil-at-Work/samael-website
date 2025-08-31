@@ -9,7 +9,7 @@ const AboutSection = () => {
     >
       <div className="grid grid-cols-1 md:grid-cols-2 gap-12 items-center">
         <div className="relative w-full flex justify-center">
-          <div className="aspect-square w-full max-w-md rounded-full border-8 border-yellow-500 overflow-hidden shadow-xl relative">
+          <div className="aspect-square w-full max-w-md rounded-half border-8 border-yellow-500 overflow-hidden shadow-xl relative">
             <img
               src="https://media.licdn.com/dms/image/v2/D5622AQFmQnoRRdm2vA/feedshare-shrink_1280/feedshare-shrink_1280/0/1690176262751?e=1759363200&v=beta&t=wPADsRrTktvPdA8hRMRo4uT1CSO0Hqhd3lxGQuLL4G0"
               alt="Person coding on laptop"
