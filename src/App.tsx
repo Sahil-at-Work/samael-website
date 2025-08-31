@@ -11,6 +11,9 @@ import PublicationsSection from './components/PublicationsSection';
 import GallerySection from './components/GallerySection';
 import LearningSection from './components/LearningSection';
 import ContactSection from './components/ContactSection';
+import MyLectures from './components/MyLectures';
+import FieldLabVisits from './components/FieldLabVisits';
+import StarGazingSessions from './components/StarGazingSessions';
 
 function App() {
   useEffect(() => {
@@ -32,6 +35,9 @@ function App() {
       <EducationSection />
       <SkillsSection />
       <PublicationsSection />
+      <MyLectures />
+      <FieldLabVisits />
+      <StarGazingSessions />
       <GallerySection />
       <LearningSection />
       <ContactSection />
