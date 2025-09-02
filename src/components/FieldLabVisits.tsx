@@ -42,7 +42,7 @@ const visits = [
     date: '28 Feb 2025',
     description: 'Science Day',
     image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
-  }
+  },
   {
     place: 'Nehru Planetarium, Mumbai',
     date: '27 July 2025',
