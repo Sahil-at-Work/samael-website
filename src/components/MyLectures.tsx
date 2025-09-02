@@ -27,7 +27,7 @@ const lectures: Lecture[] = [
     topic: 'Engineering Challenges and Opportunities in Astronomy',
     date: '01 August 2024',
     description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
-    image: 'https://github.com/user-attachments/assets/736318c9-78d6-4f03-80fe-fc416d12f5b2',
+    image: 'https://github.com/user-attachments/assets/4d0432c0-604a-4f3c-9575-13b221ca8ccf',
   },
   {
     institute: 'Vishwakarma Institute of Information Technology (VIIT-Pune)',
