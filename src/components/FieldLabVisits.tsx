@@ -17,7 +17,7 @@ const visits = [
     place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     date: '28 Feb 2024',
     description: 'Science Day',
-    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+    image: 'https://media.licdn.com/dms/image/v2/D5622AQH8IgJVACZ8ag/feedshare-shrink_1280/feedshare-shrink_1280/0/1709885782709?e=1759968000&v=beta&t=kVk-Wzr5EZnN9aK-teiGIujUV6gyGGg7PC9i-2BmdLY',
   },
   {
     place: 'Instrumentation Labs (IUCAA), Pune',
