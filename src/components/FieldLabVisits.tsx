@@ -5,7 +5,7 @@ const visits = [
     place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     date: '26 Feb 2023',
     description: 'Science Day',
-    image: 'https://media.licdn.com/dms/image/v2/D562DAQFuVa3fop_27w/profile-treasury-image-shrink_480_480/profile-treasury-image-shrink_480_480/0/1733295644497?e=1761228000&v=beta&t=8f9b_ZM3Jth3wj9Bctm6f7hhqaxG5vmi4CMnt6pHYXE',
+    image: 'https://github.com/user-attachments/assets/2ea849ed-d7e3-498c-9b96-6f81e45342e4',
   },
   {
     place: 'Giant Meterwave Radio Telescope (GMRT), Pune',
