@@ -47,7 +47,7 @@ const visits = [
     place: 'Nehru Planetarium, Mumbai',
     date: '27 July 2025',
     description: 'Science Day',
-    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+    image: 'https://github.com/user-attachments/assets/b163ecb8-e1c9-4fe9-8e73-74350e9e8cc5',
   }
 ];
 
