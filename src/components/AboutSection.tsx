@@ -11,7 +11,7 @@ const AboutSection = () => {
   <div className="relative w-full flex justify-center">
     <div className="w-full max-w-md h-[400px] overflow-hidden border-[5px] border-yellow-500 rounded-[20px] shadow-xl">
       <img
-        src="https://github.com/user-attachments/assets/f1dcd7eb-8ec1-41c4-9ac4-3c7f7cbed1d5"
+        src="https://github.com/user-attachments/assets/3d798101-7056-45c0-9b79-d008cb092d44"
         alt="Person coding on laptop"
         className="w-full object-cover object-top h-full"
       />
@@ -23,7 +23,7 @@ const AboutSection = () => {
 
         <div className="space-y-6">
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
-            I am now persuing M.Tech in Internet of Things -IoT from Veermata Jijabai Technological Institute- VJTI, Mumbai
+            I am now persuing M.Tech in Computer Engineering from Veermata Jijabai Technological Institute- VJTI, Mumbai
           </p>
           <p className="text-lg text-gray-600 dark:text-gray-300 leading-relaxed">
             I completed my B.Tech in Electronics and Telecommunication at Vishwakarma Institute of Technology, Pune, 
