@@ -34,14 +34,14 @@ const lectures: Lecture[] = [
     topic: 'Signals to Stars',
     date: '11 January 2025',
     description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
-    image: 'https://picsum.photos/id/237/400/300',
+    image: 'https://github.com/user-attachments/assets/4c96a6e4-c9f2-4259-bb7f-9a76bcc4bd0a',
   },
   {
     institute: 'Indrayani-Pune',
     topic: 'Introductory Astronomy and Carreer Opportunities',
     date: '23 August 2025',
     description: 'A talk focused on the importance of making astronomy education accessible and engaging for all age groups.',
-    image: 'https://d4.alternativeto.net/Ty3JiOw0J4K3JE88cjAdZLYH3b10Y0t8Kp3wgbwcqJM/rs:fit:2400:2400:0/g:ce:0:0/YWJzOi8vZGlzdC9zLzhjNzljYjExLWZkOTctZTMxMS04OWNlLTAwMjU5MGEwNWY1Zl8yX2Z1bGwuanBn.jpg',
+    image: 'https://github.com/user-attachments/assets/b7ab1363-3c1c-4d11-9e9f-16bb25196938',
   },
 ];
 
