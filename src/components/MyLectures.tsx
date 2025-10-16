@@ -20,7 +20,7 @@ const lectures: Lecture[] = [
     topic: 'Evolution of Astronomy from Implications to Implementations',
     date: '11 August 2023',
     description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
-    image: 'https://picsum.photos/id/237/400/300',
+    image: 'https://github.com/Auriel3003/samael/assets/103866475/50e41c09-dfad-4546-8759-26f3b11ced6e',
   },
   {
     institute: 'Symbiosis Institute of Technology (SIT-Pune)',
