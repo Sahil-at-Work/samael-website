@@ -14,7 +14,7 @@ const lectures: Lecture[] = [
     topic: 'Horn Antenna Workshop',
     date: '11-13 April 2023',
     description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
-    image: 'https://picsum.photos/id/237/400/300',
+    image: 'https://github.com/Auriel3003/samael/assets/103866475/8286f032-b21d-455b-94e4-e53d981c73e3',
   },{
     institute: 'Vishwakarma Institute of Technology (VIT-Pune)',
     topic: 'Evolution of Astronomy from Implications to Implementations',
