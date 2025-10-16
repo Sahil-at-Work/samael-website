@@ -41,7 +41,7 @@ const visits = [
     place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     date: '28 Feb 2025',
     description: 'Science Day',
-    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+    image: 'https://github.com/user-attachments/assets/4e804f0e-0cb4-47bc-98d6-607be54267c1',
   },
   {
     place: 'Nehru Planetarium, Mumbai',
