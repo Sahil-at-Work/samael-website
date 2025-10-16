@@ -11,7 +11,7 @@ const AboutSection = () => {
   <div className="relative w-full flex justify-center">
     <div className="w-full max-w-md h-[400px] overflow-hidden border-[5px] border-yellow-500 rounded-[20px] shadow-xl">
       <img
-        src="https://github.com/user-attachments/assets/f1dcd7eb-8ec1-41c4-9ac4-3c7f7cbed1d5"
+        src="https://github.com/user-attachments/assets/3d798101-7056-45c0-9b79-d008cb092d44"
         alt="Person coding on laptop"
         className="w-full object-cover object-top h-full"
       />
