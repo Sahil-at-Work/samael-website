@@ -35,7 +35,7 @@ const visits = [
     place: 'Giant Meterwave Radio Telescope (GMRT), Pune',
     date: '17 Jan 2025',
     description: 'Science Day',
-    image: 'https://images.unsplash.com/photo-1542170327-e81816e81014',
+    image: 'https://imagedelivery.net/lLmNeOP7HXG0OqaG97wimw/cm2wo0tyc0000wmkkl4nb6r97/74144542-26c4-4557-a5f1-191155784b29.png/public',
   },
   {
     place: 'Inter University Centre for Astronomy and Astrophysics (IUCAA), Pune',
