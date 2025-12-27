@@ -1,9 +1,116 @@
 import { useState, useMemo } from 'react';
 import Section from './Section';
-import { PROJECTS } from '../constants';
-import { Project, ProjectFilters } from '../types';
+import { ProjectFilters } from '../types';
 import { Radio, GitBranch, Code, Database, ExternalLink, Github, Linkedin, Filter, X, ChevronDown } from 'lucide-react';
 import Button from './Button';
+
+// Projects data
+const PROJECTS = [
+  {
+    title: 'Automation of Optical Antenna',
+    description: 'Developed a 4-inch aperture Newtonian Telescope with automated stellar tracking system. Achieved 0.1-degree rotation precision with 87% imaging accuracy. Won Best Project Award for Engineering Design and Innovation.',
+    type: 'Hardware' as const,
+    skillset: ['Arduino', 'Stepper Motors', 'Optics', 'C++', 'Mechanical Design'],
+    from: 'Jan 2024',
+    to: 'Jun 2024',
+    affiliation: 'Vishwakarma Institute of Technology',
+    link: 'https://github.com/Sahil-at-Work',
+    featured: true
+  },
+  {
+    title: 'Affordable Small Radio Telescope (ASRT)',
+    description: 'Created an innovative radio telescope using DTH equipment for Ku-Band observations. Implemented super heterodyne receiver for solar activity monitoring.',
+    type: 'Hardware' as const,
+    skillset: ['RF Engineering', 'Signal Processing', 'GNU Radio', 'Python', 'Electronics'],
+    from: 'Jan 2024',
+    to: 'Jun 2024',
+    affiliation: 'IUCAA',
+    link: 'https://github.com/Sahil-at-Work',
+    featured: true
+  },
+  {
+    title: 'RF Up/Down-Converter Design',
+    description: 'Developed signal conversion systems using GNU Radio and SDRs, implementing comprehensive signal processing solutions.',
+    type: 'Software Ops' as const,
+    skillset: ['GNU Radio', 'SDR', 'Python', 'Signal Processing', 'Linux'],
+    from: 'Jan 2024',
+    to: 'Jun 2024',
+    affiliation: 'Personal Project',
+    link: 'https://github.com/Sahil-at-Work',
+    featured: true
+  },
+  {
+    title: 'Butterfly Classification System',
+    description: 'Created a CNN-based classification system using ResNet50, achieving 94% accuracy in real-time butterfly identification in the Sahyadri region.',
+    type: 'Data Science' as const,
+    skillset: ['Python', 'TensorFlow', 'CNN', 'Computer Vision', 'Machine Learning'],
+    from: 'Jan 2024',
+    to: 'Jun 2024',
+    affiliation: 'Vishwakarma Institute of Technology',
+    link: 'https://github.com/Sahil-at-Work',
+    featured: true
+  },
+  {
+    title: 'BMC Helix Integration Platform',
+    description: 'Worked on Docker management and database administration for BMC Helix Intelligent Integrations platform.',
+    type: 'Software Ops' as const,
+    skillset: ['Docker', 'Linux', 'Database Administration', 'DevOps', 'System Integration'],
+    from: 'Jan 2024',
+    to: 'Jun 2024',
+    affiliation: 'BMC Software Inc',
+    link: 'https://www.linkedin.com/in/sahil-sawant-its-31aug'
+  },
+  {
+    title: 'Blink Controlled Wheelchair',
+    description: 'Developed an assistive technology solution using eye-blink detection for wheelchair control.',
+    type: 'Hardware' as const,
+    skillset: ['Computer Vision', 'Arduino', 'Python', 'OpenCV', 'Embedded Systems'],
+    from: 'Sep 2022',
+    to: 'Dec 2022',
+    affiliation: 'DIAT Pune',
+    link: 'https://github.com/Sahil-at-Work'
+  },
+  {
+    title: 'Smart SOS Device',
+    description: 'Created a safety device with GPS tracking and emergency alert system using IoT technologies.',
+    type: 'Hardware' as const,
+    skillset: ['IoT', 'GPS', 'Arduino', 'GSM', 'Mobile App Development'],
+    from: 'Mar 2023',
+    to: 'Aug 2023',
+    affiliation: 'Pimpri Chinchwad College of Engineering',
+    link: 'https://doi.org/10.1109/ICCUBEA58933.2023.10392200'
+  },
+  {
+    title: 'Portfolio Website',
+    description: 'Developed a responsive portfolio website using React, TypeScript, and Three.js with dark/light mode support.',
+    type: 'Software Dev' as const,
+    skillset: ['React', 'TypeScript', 'Three.js', 'Tailwind CSS', 'Responsive Design'],
+    from: 'Dec 2024',
+    to: 'Present',
+    affiliation: 'Personal Project',
+    link: 'https://samael.vercel.app'
+  },
+  {
+    title: 'Cybersecurity Blog Platform',
+    description: 'Created educational content platform for cybersecurity awareness and DevOps best practices.',
+    type: 'Software Dev' as const,
+    skillset: ['Content Management', 'Web Development', 'SEO', 'Technical Writing'],
+    from: 'Oct 2023',
+    to: 'Present',
+    affiliation: 'Silverback - The Knight',
+    link: 'https://sites.google.com/view/conceptus-celestia/'
+  },
+  {
+    title: 'Astronomical Data Analysis',
+    description: 'Analyzed radio telescope data for solar activity patterns using Python and statistical methods.',
+    type: 'Data Science' as const,
+    skillset: ['Python', 'Data Analysis', 'Statistics', 'Matplotlib', 'NumPy'],
+    from: 'Jul 2024',
+    to: 'Oct 2024',
+    affiliation: 'IUCAA',
+    link: 'https://www.iucaa.in'
+  },
+];
 
 const ProjectsSection = () => {
   const [showAll, setShowAll] = useState(false);
