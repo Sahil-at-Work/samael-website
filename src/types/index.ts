@@ -26,8 +26,24 @@ export interface TimelineItem {
 
 export interface Project {
   title: string;
-  category: string;
-  period: string;
+  description: string;
+  type: 'Hardware' | 'Software Ops' | 'Software Dev' | 'Data Science';
+  skillset: string[];
+  from: string;
+  to: string;
+  affiliation: string;
+  link?: string;
+  featured?: boolean;
+}
+
+export interface ProjectFilters {
+  skills: string[];
+  affiliation: string[];
+  type: string[];
+}
+
+export interface Award {
+  title: string;
   description: string;
 }
 
