@@ -16,6 +16,113 @@ const PROJECTS = [
     affiliation: 'Vishwakarma Institute of Technology',
     link: 'https://github.com/Sahil-at-Work',
     featured: true
+  },  {
+    title: 'Cepheid Period–Magnitude Analysis',
+    description:
+      'Explored the Period–Luminosity relationship of Cepheid variable stars using Bayesian Inference and MCMC sampling (emcee). Implemented probabilistic modeling with custom priors and likelihoods, performed posterior estimation, and validated results using corner plots and model–overlay visualizations.',
+    type: 'Research' as const,
+    skillset: ['Python', 'Bayesian Inference', 'MCMC', 'Data Analysis', 'Astrophysics'],
+    from: 'May 2024',
+    to: 'Jun 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: 'https://docs.google.com/document/d/18MbodOn5EVy_vQAdyKEAiq4ERzTif24LhUi2fjePu7k/edit?usp=sharing',
+    featured: false
+  },
+  {
+    title: 'Computational Astrophysics with MESA',
+    description:
+      'Simulated stellar evolution using MESA, modeling stellar life cycles and blue-loop evolution in Cepheid stars. Configured inlists for mass and reaction parameters, generated PGSTAR visualizations, and analyzed stellar structure using py_mesa_reader to produce Hertzsprung–Russell diagrams.',
+    type: 'Research' as const,
+    skillset: ['Python', 'MESA', 'Computational Physics', 'Astrophysics', 'Data Visualization'],
+    from: 'May 2024',
+    to: 'Jun 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: '',
+    featured: false
+  },
+  {
+    title: 'Frequentist vs Bayesian Inferential Statistics',
+    description:
+      'Implemented Source Flux Estimation using both Frequentist Maximum Likelihood Estimation (MLE) and Bayesian MCMC sampling. Compared estimation frameworks through uncertainty modeling, posterior distributions, and parameter confidence intervals.',
+    type: 'Research' as const,
+    skillset: ['Python', 'Statistics', 'MLE', 'Bayesian Inference', 'Astrophysics'],
+    from: 'May 2024',
+    to: 'Jun 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: 'https://docs.google.com/document/d/1h_cXEQraeeoJ1l51Ze3NXyDrIks79u5CpnP6hjCXf0k/edit?usp=sharing',
+    featured: false
+  },
+  {
+    title: 'Radio Astronomy Data Handling',
+    description:
+      'Worked on radio interferometry data processing including calibration, flagging, imaging, and deconvolution using visibility data. Processed spectra for PKS 1830-211, converted frequency to velocity, and analyzed OH absorption using Python-based workflows.',
+    type: 'Research' as const,
+    skillset: ['Python', 'Radio Astronomy', 'Interferometry', 'Data Processing', 'Signal Analysis'],
+    from: 'May 2024',
+    to: 'Jun 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: '',
+    featured: false
+  },
+  {
+    title: 'Synchrotron Radiation Modeling',
+    description:
+      'Modeled synchrotron emissivity from relativistic electrons using Python. Implemented emissivity kernels and spectral aging models for power-law and cut-off spectra, validating numerical outputs against analytical solutions.',
+    type: 'Research' as const,
+    skillset: ['Python', 'Astrophysics', 'Numerical Modeling', 'Radiative Processes', 'Data Analysis'],
+    from: 'May 2024',
+    to: 'Jun 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: '',
+    featured: false
+  },
+  {
+    title: 'Affordable Small Radio Telescope (ASRT) — Solar Observation',
+    description:
+      'Built a low-cost radio telescope using a DTH setup to record Ku-Band satellite and solar radio signals. Implemented a super-heterodyne receiver and generated frequency–time plots to study solar activity. Presented at IUCAA.',
+    type: 'Hardware' as const,
+    skillset: ['Radio Astronomy', 'Electronics', 'Signal Processing', 'Python', 'Instrumentation'],
+    from: 'Jan 2024',
+    to: 'May 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: '',
+    featured: false
+  },
+  {
+    title: 'Design and Analysis of Floating-Point Comparators (IEEE-754)',
+    description:
+      'Analyzed comparator architectures for IEEE-754 floating-point formats including float-16, float-32, and float-64. Evaluated precision, latency, and resource trade-offs to optimize arithmetic unit design for digital systems.',
+    type: 'Research' as const,
+    skillset: ['Digital Design', 'IEEE-754', 'Computer Architecture', 'VLSI', 'Mathematical Modeling'],
+    from: 'Mar 2024',
+    to: 'May 2024',
+    affiliation: 'Vishwakarma Institute of Technology',
+    link: '',
+    featured: false
+  },
+  {
+    title: 'Butterfly Species Identification — Sahyadri Region',
+    description:
+      'Developed a deep-learning model using ResNet50 and transfer learning for automated butterfly species identification from images to support biodiversity conservation in the Sahyadri ecosystem.',
+    type: 'Software' as const,
+    skillset: ['Deep Learning', 'Computer Vision', 'Python', 'ResNet50', 'Transfer Learning'],
+    from: 'Mar 2024',
+    to: 'May 2024',
+    affiliation: 'Vishwakarma Institute of Technology',
+    link: '',
+    featured: false
+  },
+  {
+    title: 'Temporal & Spectral Signal Analysis of H1 Emission using Horn Antenna',
+    description:
+      'Applied Fourier, wavelet, and spectrogram-based techniques to extract dominant frequencies and spectral features from H1-emission signals captured via horn antenna, demonstrating applications in scientific signal characterization.',
+    type: 'Research' as const,
+    skillset: ['Signal Processing', 'Fourier Analysis', 'Wavelets', 'Spectral Analysis', 'Python'],
+    from: 'Mar 2024',
+    to: 'May 2024',
+    affiliation: 'Vishwakarma Institute of Technology',
+    link: '',
+    featured: false
   },
   {
     title: 'Affordable Small Radio Telescope (ASRT)',
