@@ -1,38 +1,99 @@
 import Section from './Section';
 import { Code2, Database, Radio, Shield, Telescope, Terminal } from 'lucide-react';
-
 const SKILLS = [
   {
-    category: 'Electronics & Communication',
-    skills: ['RF Systems', 'Signal Processing', 'Embedded Systems', 'PCB Design'],
-    icon: <Radio className="w-6 h-6" />,
-  },
-  {
-    category: 'Software Development',
-    skills: ['Python', 'JavaScript/TypeScript', 'React', 'Node.js'],
-    icon: <Code2 className="w-6 h-6" />,
-  },
-  {
-    category: 'DevOps & Infrastructure',
-    skills: ['Docker', 'Linux Administration', 'CI/CD', 'Network Security'],
-    icon: <Terminal className="w-6 h-6" />,
-  },
-  {
-    category: 'Database & Backend',
-    skills: ['SQL', 'MongoDB', 'API Design', 'System Architecture'],
+    category: 'Data Science & Analytics',
+    skills: [
+      'Data Analysis',
+      'Big Data Analytics',
+      'Machine Learning',
+      'Deep Learning (DNN)',
+      'Artificial Intelligence',
+      'Signal Processing',
+      'Image Processing',
+      'Python'
+    ],
     icon: <Database className="w-6 h-6" />,
   },
   {
-    category: 'Cybersecurity',
-    skills: ['Penetration Testing', 'Security Analysis', 'Network Protocols', 'Encryption'],
-    icon: <Shield className="w-6 h-6" />,
+    category: 'DevOps & Cloud Infrastructure',
+    skills: [
+      'DevOps on AWS',
+      'Cloud Computing',
+      'Docker',
+      'Kubernetes',
+      'Linux & System Administration',
+      'Shell Scripting / Bash',
+      'CI/CD',
+      'Server & Network Operations',
+      'Secure Shell (SSH)',
+      'SQL',
+      'API Design',
+      'System Architecture'
+    ],
+    icon: <Terminal className="w-6 h-6" />,
   },
   {
-    category: 'Astronomy',
-    skills: ['Telescope Design', 'Radio Astronomy', 'Data Analysis', 'Astrophotography'],
+    category: 'Software Development & Engineering',
+    skills: [
+      'Software Development',
+      'Software Systems Engineering',
+      'Software Testing',
+      'Software Security',
+      'Web Development',
+      'Javascript',
+      'Node.js',
+      'Next.js',
+      'Tailwind CSS',
+      'Git',
+      'Python',
+      'Flask',
+      'Django',
+      'JAVA',
+      'C,C++'
+    ],
+    icon: <Code2 className="w-6 h-6" />,
+  },
+  {
+    category: 'Astronomy & Research',
+    skills: [
+      'Astrophysics',
+      'Observational & Radio Astronomy',
+      'Research Data Handling',
+      'Scientific Computing',
+      'Automated Systems',
+      'Research Assistant Experience'
+    ],
     icon: <Telescope className="w-6 h-6" />,
   },
+  {
+    category: 'Electronics & Embedded Systems',
+    skills: [
+      'Electronics & Digital Electronics',
+      'Embedded Systems (Raspberry Pi / Arduino)',
+      'Internet of Things (IoT)',
+      'Electronic Hardware Systems',
+      'Signal & Telecommunication Systems',
+      'RF Systems',
+      'PCB Design'
+    ],
+    icon: <Radio className="w-6 h-6" />,
+  },
+  {
+    category: 'Management & Leadership',
+    skills: [
+      'Project Management',
+      'Strategic Planning',
+      'Risk Management',
+      'Business Analysis',
+      'Organizational Development',
+      'Teamwork & Collaboration',
+      'Leadership & Content Development'
+    ],
+    icon: <Shield className="w-6 h-6" />,
+  },
 ];
+
 
 const SkillsSection = () => {
   return (
