@@ -192,7 +192,7 @@ const PROJECTS = [
     to: 'Oct 2024',
     affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: 'Antariksh Club of VI'
-  }
+  },
   {
     title: 'OSProbeKit — Operating System Exploration Toolkit',
     description:
