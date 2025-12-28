@@ -14,8 +14,8 @@ const PROJECTS = [
     skillset: ['Arduino', 'Stepper Motors', 'Optics', 'C++', 'Mechanical Design'],
     from: 'Jan 2024',
     to: 'Jun 2024',
-    affiliation: 'Vishwakarma Institute of Technology',
-    link: 'https://github.com/Sahil-at-Work',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: 'https://www.linkedin.com/in/sahil-at-work/details/projects/',
     featured: true
   },
   {
@@ -38,7 +38,7 @@ const PROJECTS = [
     skillset: ['Python', 'Bayesian Inference', 'MCMC', 'Data Analysis', 'Astrophysics'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'IUCAA, Pune',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: 'https://docs.google.com/document/d/18MbodOn5EVy_vQAdyKEAiq4ERzTif24LhUi2fjePu7k/edit?usp=sharing',
     featured: false
   },
@@ -50,7 +50,7 @@ const PROJECTS = [
     skillset: ['Python', 'MESA', 'Computational Physics', 'Astrophysics', 'Data Visualization'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'IUCAA, Pune',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: '',
     featured: false
   },
@@ -62,7 +62,7 @@ const PROJECTS = [
     skillset: ['Python', 'Statistics', 'MLE', 'Bayesian Inference', 'Astrophysics'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'IUCAA, Pune',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: 'https://docs.google.com/document/d/1h_cXEQraeeoJ1l51Ze3NXyDrIks79u5CpnP6hjCXf0k/edit?usp=sharing',
     featured: false
   },
@@ -74,7 +74,7 @@ const PROJECTS = [
     skillset: ['Python', 'Radio Astronomy', 'Interferometry', 'Data Processing', 'Signal Analysis'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'IUCAA, Pune',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: '',
     featured: false
   },
@@ -86,7 +86,7 @@ const PROJECTS = [
     skillset: ['Python', 'Astrophysics', 'Numerical Modeling', 'Radiative Processes', 'Data Analysis'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'IUCAA, Pune',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: '',
     featured: false
   },
@@ -134,7 +134,7 @@ const PROJECTS = [
     skillset: ['GNU Radio', 'SDR', 'Python', 'Signal Processing', 'Linux'],
     from: 'Jan 2024',
     to: 'Jun 2024',
-    affiliation: 'Personal Project',
+    affiliation: 'Independent',
     link: 'https://github.com/Sahil-at-Work',
     featured: true
   },
@@ -157,7 +157,7 @@ const PROJECTS = [
     skillset: ['Computer Vision', 'Arduino', 'Python', 'OpenCV', 'Embedded Systems'],
     from: 'Sep 2022',
     to: 'Dec 2022',
-    affiliation: 'DIAT Pune',
+    affiliation: 'Defence Institute of Advanced Technology (DIAT), Pune',
     link: 'https://github.com/Sahil-at-Work'
   },
   {
@@ -168,7 +168,7 @@ const PROJECTS = [
     skillset: ['IoT', 'GPS', 'Arduino', 'GSM', 'Mobile App Development'],
     from: 'Mar 2023',
     to: 'Aug 2023',
-    affiliation: 'Pimpri Chinchwad College of Engineering',
+    affiliation: 'Pimpri Chinchwad College of Engineering (PCCOE), Pune',
     link: 'https://doi.org/10.1109/ICCUBEA58933.2023.10392200'
   },
   {
@@ -179,19 +179,8 @@ const PROJECTS = [
     skillset: ['React', 'TypeScript', 'Three.js', 'Tailwind CSS', 'Responsive Design'],
     from: 'Dec 2024',
     to: 'Present',
-    affiliation: 'Personal Project',
+    affiliation: 'Independent',
     link: 'https://samael.vercel.app'
-  },
-  {
-    title: 'Cybersecurity Blog Platform',
-    description:
-      'Built and maintained an educational content platform focused on cybersecurity awareness and DevOps best practices, including SEO-optimized technical writing.',
-    type: 'Software Dev' as const,
-    skillset: ['Content Management', 'Web Development', 'SEO', 'Technical Writing'],
-    from: 'Oct 2023',
-    to: 'Present',
-    affiliation: 'Silverback — The Knight',
-    link: 'https://sites.google.com/view/conceptus-celestia/'
   },
   {
     title: 'Astronomical Data Analysis',
@@ -201,8 +190,52 @@ const PROJECTS = [
     skillset: ['Python', 'Data Analysis', 'Statistics', 'Matplotlib', 'NumPy'],
     from: 'Jul 2024',
     to: 'Oct 2024',
-    affiliation: 'IUCAA',
-    link: 'https://www.iucaa.in'
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: 'Antariksh Club of VI'
+  }
+  {
+    title: 'OSProbeKit — Operating System Exploration Toolkit',
+    description:
+      'Developed a collection of shell-based utilities for system exploration and diagnostics, providing insights into connections, processes, and resource usage to simplify OS understanding for beginners and power-users.',
+    type: 'Software Ops' as const,
+    skillset: ['Shell Scripting', 'Linux', 'System Monitoring', 'Process Analysis', 'DevOps'],
+    from: 'Aug 2024',
+    to: 'Present',
+    affiliation: 'Personal Project',
+    link: ''
+  },
+  {
+    title: 'Antariksh — Astronomy Club Website',
+    description:
+      'Built a responsive web platform for the Antariksh astronomy club using React, Vite, and Tailwind CSS, featuring dynamic content loading, dark/light theme switching, and accessibility-focused UI design.',
+    type: 'Software Dev' as const,
+    skillset: ['React', 'Vite', 'Tailwind CSS', 'Frontend Development', 'UI/UX'],
+    from: 'Nov 2024',
+    to: 'Present',
+    affiliation: 'Antariksh Club of VI',
+    link: ''
+  },
+  {
+    title: 'W-Boson Decay and Charge Asymmetry Analysis',
+    description:
+      'Analyzed high-energy physics datasets to study W-boson decay into muons and neutrinos, reconstructed transverse mass distributions, and investigated charge asymmetry to infer quark-level structure of the proton.',
+    type: 'Data Science' as const,
+    skillset: ['Python', 'Data Analysis', 'Particle Physics', 'Statistics', 'Scientific Computing'],
+    from: 'Jun 2024',
+    to: 'Sep 2024',
+    affiliation: 'Independent',
+    link: ''
+  },
+  {
+    title: 'SDSS Quasar–Galaxy Classification using Machine Learning',
+    description:
+      'Applied machine learning techniques on SDSS survey data to classify quasars and galaxies using neural network models, exploring feature selection and performance evaluation across astrophysical object classes.',
+    type: 'Data Science' as const,
+    skillset: ['Machine Learning', 'Neural Networks', 'Python', 'Astrophysics', 'Data Processing'],
+    from: 'Jul 2024',
+    to: 'Oct 2024',
+    affiliation: 'Independent',
+    link: ''
   }
 ];
 
