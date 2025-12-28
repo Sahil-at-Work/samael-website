@@ -16,7 +16,7 @@ const PROJECTS = [
     to: 'Jun 2024',
     affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: 'https://www.linkedin.com/in/sahil-at-work/details/projects/',
-    featured: true
+    featured: false
   },
   {
     title: 'Affordable Small Radio Telescope (ASRT) — Solar Observation',
@@ -88,7 +88,7 @@ const PROJECTS = [
     to: 'Jun 2024',
     affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
     link: '',
-    featured: false
+    featured: true
   },
   {
     title: 'Design and Analysis of Floating-Point Comparators (IEEE-754)',
@@ -136,7 +136,7 @@ const PROJECTS = [
     to: 'Jun 2024',
     affiliation: 'Independent',
     link: 'https://github.com/Sahil-at-Work',
-    featured: true
+    featured: false
   },
   {
     title: 'BMC Helix Integration Platform',
@@ -147,7 +147,8 @@ const PROJECTS = [
     from: 'Jan 2024',
     to: 'Jun 2024',
     affiliation: 'BMC Software Inc',
-    link: 'https://www.linkedin.com/in/sahil-sawant-its-31aug'
+    link: 'https://www.linkedin.com/in/sahil-sawant-its-31aug',
+    featured: true
   },
   {
     title: 'Blink-Controlled Wheelchair',
