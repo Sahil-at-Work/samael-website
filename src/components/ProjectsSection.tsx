@@ -526,9 +526,10 @@ const ProjectsSection = () => {
             <p className="text-gray-300 mb-4 text-sm leading-relaxed">{project.description}</p>
             
             {/* Skills */}
+            {/* Skills */}
             <div className="mb-4">
               <div className="flex flex-wrap gap-1">
-                {project.skillset.slice(0, 4).map((skill, skillIndex) => (
+                {project.skillset.map((skill, skillIndex) => (
                   <span
                     key={skillIndex}
                     className="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded"
@@ -536,13 +537,9 @@ const ProjectsSection = () => {
                     {skill}
                   </span>
                 ))}
-                {project.skillset.length > 4 && (
-                  <span className="px-2 py-1 bg-gray-700 text-gray-300 text-xs rounded">
-                    +{project.skillset.length - 4} more
-                  </span>
-                )}
               </div>
             </div>
+
 
             {/* Link */}
             {project.link && (
