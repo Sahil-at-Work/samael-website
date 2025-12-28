@@ -7,8 +7,9 @@ import Button from './Button';
 // Projects data
 const PROJECTS = [
   {
-    title: 'Automation of Optical Antenna',
-    description: 'Developed a 4-inch aperture Newtonian Telescope with automated stellar tracking system. Achieved 0.1-degree rotation precision with 87% imaging accuracy. Won Best Project Award for Engineering Design and Innovation.',
+    title: 'Automation of Optical Telescope',
+    description:
+      'Developed a 4-inch aperture Newtonian telescope with an automated stellar tracking system, achieving 0.1° rotation precision and 87% imaging accuracy. Received the Best Project Award for Engineering Design and Innovation.',
     type: 'Hardware' as const,
     skillset: ['Arduino', 'Stepper Motors', 'Optics', 'C++', 'Mechanical Design'],
     from: 'Jan 2024',
@@ -16,82 +17,83 @@ const PROJECTS = [
     affiliation: 'Vishwakarma Institute of Technology',
     link: 'https://github.com/Sahil-at-Work',
     featured: true
-  },  {
+  },
+  {
+    title: 'Affordable Small Radio Telescope (ASRT) — Solar Observation',
+    description:
+      'Built a low-cost radio telescope using a DTH setup for Ku-Band observations. Implemented a super-heterodyne receiver, acquired satellite and solar radio signals, and generated frequency–time plots for solar activity analysis.',
+    type: 'Hardware' as const,
+    skillset: ['Radio Astronomy', 'RF Engineering', 'Signal Processing', 'Python', 'Electronics'],
+    from: 'Jan 2024',
+    to: 'Jun 2024',
+    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    link: 'https://github.com/Sahil-at-Work',
+    featured: true
+  },
+  {
     title: 'Cepheid Period–Magnitude Analysis',
     description:
-      'Explored the Period–Luminosity relationship of Cepheid variable stars using Bayesian Inference and MCMC sampling (emcee). Implemented probabilistic modeling with custom priors and likelihoods, performed posterior estimation, and validated results using corner plots and model–overlay visualizations.',
+      'Explored the Period–Luminosity relationship of Cepheid variable stars using Bayesian inference and MCMC sampling (emcee). Implemented probabilistic modeling with custom priors and likelihoods, estimated posteriors, and validated results using corner plots and model-overlay visualizations.',
     type: 'Research' as const,
     skillset: ['Python', 'Bayesian Inference', 'MCMC', 'Data Analysis', 'Astrophysics'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    affiliation: 'IUCAA, Pune',
     link: 'https://docs.google.com/document/d/18MbodOn5EVy_vQAdyKEAiq4ERzTif24LhUi2fjePu7k/edit?usp=sharing',
     featured: false
   },
   {
     title: 'Computational Astrophysics with MESA',
     description:
-      'Simulated stellar evolution using MESA, modeling stellar life cycles and blue-loop evolution in Cepheid stars. Configured inlists for mass and reaction parameters, generated PGSTAR visualizations, and analyzed stellar structure using py_mesa_reader to produce Hertzsprung–Russell diagrams.',
+      'Simulated stellar evolution using MESA, including blue-loop evolution in Cepheid stars. Configured inlists for mass and reaction parameters, generated PGSTAR outputs, and analyzed stellar structure using py_mesa_reader to produce Hertzsprung–Russell diagrams.',
     type: 'Research' as const,
     skillset: ['Python', 'MESA', 'Computational Physics', 'Astrophysics', 'Data Visualization'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    affiliation: 'IUCAA, Pune',
     link: '',
     featured: false
   },
   {
     title: 'Frequentist vs Bayesian Inferential Statistics',
     description:
-      'Implemented Source Flux Estimation using both Frequentist Maximum Likelihood Estimation (MLE) and Bayesian MCMC sampling. Compared estimation frameworks through uncertainty modeling, posterior distributions, and parameter confidence intervals.',
+      'Implemented source-flux estimation using Frequentist Maximum Likelihood Estimation and Bayesian MCMC sampling, comparing uncertainty modeling, posterior distributions, and parameter confidence intervals across both frameworks.',
     type: 'Research' as const,
     skillset: ['Python', 'Statistics', 'MLE', 'Bayesian Inference', 'Astrophysics'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    affiliation: 'IUCAA, Pune',
     link: 'https://docs.google.com/document/d/1h_cXEQraeeoJ1l51Ze3NXyDrIks79u5CpnP6hjCXf0k/edit?usp=sharing',
     featured: false
   },
   {
     title: 'Radio Astronomy Data Handling',
     description:
-      'Worked on radio interferometry data processing including calibration, flagging, imaging, and deconvolution using visibility data. Processed spectra for PKS 1830-211, converted frequency to velocity, and analyzed OH absorption using Python-based workflows.',
+      'Processed radio-interferometry visibility data including calibration, flagging, imaging, and deconvolution. Analyzed spectra for PKS 1830-211, converted frequency to velocity frames, and studied OH absorption using Python-based workflows.',
     type: 'Research' as const,
     skillset: ['Python', 'Radio Astronomy', 'Interferometry', 'Data Processing', 'Signal Analysis'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    affiliation: 'IUCAA, Pune',
     link: '',
     featured: false
   },
   {
     title: 'Synchrotron Radiation Modeling',
     description:
-      'Modeled synchrotron emissivity from relativistic electrons using Python. Implemented emissivity kernels and spectral aging models for power-law and cut-off spectra, validating numerical outputs against analytical solutions.',
+      'Modeled synchrotron emissivity from relativistic electrons, implementing emissivity kernels and spectral-aging models for power-law and cut-off spectra, and validating numerical outputs against analytical solutions.',
     type: 'Research' as const,
     skillset: ['Python', 'Astrophysics', 'Numerical Modeling', 'Radiative Processes', 'Data Analysis'],
     from: 'May 2024',
     to: 'Jun 2024',
-    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
-    link: '',
-    featured: false
-  },
-  {
-    title: 'Affordable Small Radio Telescope (ASRT) — Solar Observation',
-    description:
-      'Built a low-cost radio telescope using a DTH setup to record Ku-Band satellite and solar radio signals. Implemented a super-heterodyne receiver and generated frequency–time plots to study solar activity. Presented at IUCAA.',
-    type: 'Hardware' as const,
-    skillset: ['Radio Astronomy', 'Electronics', 'Signal Processing', 'Python', 'Instrumentation'],
-    from: 'Jan 2024',
-    to: 'May 2024',
-    affiliation: 'Inter-University Centre for Astronomy and Astrophysics (IUCAA), Pune',
+    affiliation: 'IUCAA, Pune',
     link: '',
     featured: false
   },
   {
     title: 'Design and Analysis of Floating-Point Comparators (IEEE-754)',
     description:
-      'Analyzed comparator architectures for IEEE-754 floating-point formats including float-16, float-32, and float-64. Evaluated precision, latency, and resource trade-offs to optimize arithmetic unit design for digital systems.',
+      'Analyzed comparator architectures for IEEE-754 floating-point formats (FP16, FP32, FP64), evaluating precision, latency, and resource trade-offs to support optimized arithmetic-unit design.',
     type: 'Research' as const,
     skillset: ['Digital Design', 'IEEE-754', 'Computer Architecture', 'VLSI', 'Mathematical Modeling'],
     from: 'Mar 2024',
@@ -103,19 +105,19 @@ const PROJECTS = [
   {
     title: 'Butterfly Species Identification — Sahyadri Region',
     description:
-      'Developed a deep-learning model using ResNet50 and transfer learning for automated butterfly species identification from images to support biodiversity conservation in the Sahyadri ecosystem.',
-    type: 'Software' as const,
+      'Developed a ResNet50-based deep-learning system with transfer learning for automated butterfly species identification in the Sahyadri ecosystem, achieving high-accuracy classification to support biodiversity conservation.',
+    type: 'Data Science' as const,
     skillset: ['Deep Learning', 'Computer Vision', 'Python', 'ResNet50', 'Transfer Learning'],
     from: 'Mar 2024',
     to: 'May 2024',
     affiliation: 'Vishwakarma Institute of Technology',
-    link: '',
-    featured: false
+    link: 'https://github.com/Sahil-at-Work',
+    featured: true
   },
   {
-    title: 'Temporal & Spectral Signal Analysis of H1 Emission using Horn Antenna',
+    title: 'Temporal & Spectral Signal Analysis of H1 Emission',
     description:
-      'Applied Fourier, wavelet, and spectrogram-based techniques to extract dominant frequencies and spectral features from H1-emission signals captured via horn antenna, demonstrating applications in scientific signal characterization.',
+      'Applied Fourier, wavelet, and spectrogram-based methods to extract dominant frequencies and spectral features from H1-emission signals captured using a horn antenna for scientific signal characterization.',
     type: 'Research' as const,
     skillset: ['Signal Processing', 'Fourier Analysis', 'Wavelets', 'Spectral Analysis', 'Python'],
     from: 'Mar 2024',
@@ -125,19 +127,9 @@ const PROJECTS = [
     featured: false
   },
   {
-    title: 'Affordable Small Radio Telescope (ASRT)',
-    description: 'Created an innovative radio telescope using DTH equipment for Ku-Band observations. Implemented super heterodyne receiver for solar activity monitoring.',
-    type: 'Hardware' as const,
-    skillset: ['RF Engineering', 'Signal Processing', 'GNU Radio', 'Python', 'Electronics'],
-    from: 'Jan 2024',
-    to: 'Jun 2024',
-    affiliation: 'IUCAA',
-    link: 'https://github.com/Sahil-at-Work',
-    featured: true
-  },
-  {
     title: 'RF Up/Down-Converter Design',
-    description: 'Developed signal conversion systems using GNU Radio and SDRs, implementing comprehensive signal processing solutions.',
+    description:
+      'Designed and implemented RF up/down-conversion chains using GNU Radio and SDRs, integrating end-to-end signal-processing pipelines on Linux.',
     type: 'Software Ops' as const,
     skillset: ['GNU Radio', 'SDR', 'Python', 'Signal Processing', 'Linux'],
     from: 'Jan 2024',
@@ -147,19 +139,9 @@ const PROJECTS = [
     featured: true
   },
   {
-    title: 'Butterfly Classification System',
-    description: 'Created a CNN-based classification system using ResNet50, achieving 94% accuracy in real-time butterfly identification in the Sahyadri region.',
-    type: 'Data Science' as const,
-    skillset: ['Python', 'TensorFlow', 'CNN', 'Computer Vision', 'Machine Learning'],
-    from: 'Jan 2024',
-    to: 'Jun 2024',
-    affiliation: 'Vishwakarma Institute of Technology',
-    link: 'https://github.com/Sahil-at-Work',
-    featured: true
-  },
-  {
     title: 'BMC Helix Integration Platform',
-    description: 'Worked on Docker management and database administration for BMC Helix Intelligent Integrations platform.',
+    description:
+      'Contributed to Docker-based deployment and database administration for the BMC Helix Intelligent Integrations platform, supporting system reliability and integration workflows.',
     type: 'Software Ops' as const,
     skillset: ['Docker', 'Linux', 'Database Administration', 'DevOps', 'System Integration'],
     from: 'Jan 2024',
@@ -168,8 +150,9 @@ const PROJECTS = [
     link: 'https://www.linkedin.com/in/sahil-sawant-its-31aug'
   },
   {
-    title: 'Blink Controlled Wheelchair',
-    description: 'Developed an assistive technology solution using eye-blink detection for wheelchair control.',
+    title: 'Blink-Controlled Wheelchair',
+    description:
+      'Developed an assistive mobility solution using eye-blink detection and embedded control for hands-free wheelchair navigation.',
     type: 'Hardware' as const,
     skillset: ['Computer Vision', 'Arduino', 'Python', 'OpenCV', 'Embedded Systems'],
     from: 'Sep 2022',
@@ -179,7 +162,8 @@ const PROJECTS = [
   },
   {
     title: 'Smart SOS Device',
-    description: 'Created a safety device with GPS tracking and emergency alert system using IoT technologies.',
+    description:
+      'Built an IoT-based personal safety device with GPS tracking and GSM-enabled emergency alerts, deployed as a portable field-ready prototype.',
     type: 'Hardware' as const,
     skillset: ['IoT', 'GPS', 'Arduino', 'GSM', 'Mobile App Development'],
     from: 'Mar 2023',
@@ -189,7 +173,8 @@ const PROJECTS = [
   },
   {
     title: 'Portfolio Website',
-    description: 'Developed a responsive portfolio website using React, TypeScript, and Three.js with dark/light mode support.',
+    description:
+      'Developed a responsive personal portfolio using React, TypeScript, and Three.js with dark/light mode support and modular UI components.',
     type: 'Software Dev' as const,
     skillset: ['React', 'TypeScript', 'Three.js', 'Tailwind CSS', 'Responsive Design'],
     from: 'Dec 2024',
@@ -199,24 +184,26 @@ const PROJECTS = [
   },
   {
     title: 'Cybersecurity Blog Platform',
-    description: 'Created educational content platform for cybersecurity awareness and DevOps best practices.',
+    description:
+      'Built and maintained an educational content platform focused on cybersecurity awareness and DevOps best practices, including SEO-optimized technical writing.',
     type: 'Software Dev' as const,
     skillset: ['Content Management', 'Web Development', 'SEO', 'Technical Writing'],
     from: 'Oct 2023',
     to: 'Present',
-    affiliation: 'Silverback - The Knight',
+    affiliation: 'Silverback — The Knight',
     link: 'https://sites.google.com/view/conceptus-celestia/'
   },
   {
     title: 'Astronomical Data Analysis',
-    description: 'Analyzed radio telescope data for solar activity patterns using Python and statistical methods.',
+    description:
+      'Analyzed radio-telescope datasets to study solar-activity trends using Python-based statistical modeling and visualization workflows.',
     type: 'Data Science' as const,
     skillset: ['Python', 'Data Analysis', 'Statistics', 'Matplotlib', 'NumPy'],
     from: 'Jul 2024',
     to: 'Oct 2024',
     affiliation: 'IUCAA',
     link: 'https://www.iucaa.in'
-  },
+  }
 ];
 
 const ProjectsSection = () => {
