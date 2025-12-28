@@ -1,5 +1,6 @@
 import Section from './Section';
 import { Code2, Database, Radio, Shield, Telescope, Terminal } from 'lucide-react';
+
 const SKILLS = [
   {
     category: 'Data Science & Analytics',
@@ -94,7 +95,6 @@ const SKILLS = [
   },
 ];
 
-
 const SkillsSection = () => {
   return (
     <Section
@@ -107,20 +107,26 @@ const SkillsSection = () => {
         {SKILLS.map((category, index) => (
           <div
             key={index}
-            className="bg-gray-800 rounded-lg p-6 hover:transform hover:-translate-y-2 transition-all duration-300"
+            className="bg-gray-800 rounded-2xl p-6 hover:-translate-y-2 transition-all duration-300 flex flex-col"
           >
             <div className="flex items-center gap-3 mb-4">
               <span className="text-blue-400">{category.icon}</span>
               <h3 className="text-xl font-bold text-white">{category.category}</h3>
             </div>
-            <ul className="space-y-2">
+
+            {/* Chip-style curved skill buttons */}
+            <div className="flex flex-wrap gap-2">
               {category.skills.map((skill, skillIndex) => (
-                <li key={skillIndex} className="text-gray-400 flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 bg-blue-400 rounded-full"></span>
+                <span
+                  key={skillIndex}
+                  className="px-3 py-1 rounded-full bg-gray-700 text-gray-300 border border-gray-600
+                             hover:bg-blue-500 hover:text-white hover:border-blue-500
+                             transition-all text-sm"
+                >
                   {skill}
-                </li>
+                </span>
               ))}
-            </ul>
+            </div>
           </div>
         ))}
       </div>
