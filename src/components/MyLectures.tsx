@@ -48,14 +48,14 @@ const lectures: Lecture[] = [
     topic: 'ORION- Data Science in Asronomy',
     date: '04 November 2025',
     description: 'A Python Guided Workshop focusing on Data Science in Astronomy. Students were taught to use Python from basics and implement it on SDSS dataset.',
-    image: 'https://github.com/user-attachments/assets/b7ab1363-3c1c-4d11-9e9f-16bb25196938',
+    image: 'https://github.com/user-attachments/assets/af07b2e7-a0f8-477f-a20c-5d0ed154dd61',
   },
   {
     institute: 'Vishwakarma Institute of Technology (VIT-Pune)',
     topic: 'Predictive AI Models for Disaster Management',
     date: '02 December 2025',
     description: 'A Faculty Development Program organised by VIT (AI) dept. focusing on Advancements of AI in different sectors.',
-    image: 'https://github.com/user-attachments/assets/b7ab1363-3c1c-4d11-9e9f-16bb25196938',
+    image: 'https://github.com/user-attachments/assets/10a95ef8-d1c4-440f-8bbe-8b5ddd848e51',
   },
 ];
 
@@ -93,3 +93,4 @@ const MyLectures: React.FC = () => {
 
 
 export default MyLectures;
+
