@@ -13,20 +13,20 @@ const lectures: Lecture[] = [
     institute: 'Inter University Centre for Astronomy and Astrophysics',
     topic: 'Horn Antenna Workshop',
     date: '11-13 April 2023',
-    description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
+    description: 'Guided and volunteered for Faculty Development session in construction of Horn Antenna by IUCAA, Pune.',
     image: 'https://github.com/Auriel3003/samael/assets/103866475/8286f032-b21d-455b-94e4-e53d981c73e3',
   },{
     institute: 'Vishwakarma Institute of Technology (VIT-Pune)',
     topic: 'Evolution of Astronomy from Implications to Implementations',
     date: '11 August 2023',
-    description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
+    description: 'An pilot internal session for students on the basics of astronomy, its advancements, and its significance in modern sciences.',
     image: 'https://github.com/Auriel3003/samael/assets/103866475/50e41c09-dfad-4546-8759-26f3b11ced6e',
   },
   {
     institute: 'Symbiosis Institute of Technology (SIT-Pune)',
     topic: 'Engineering Challenges and Opportunities in Astronomy',
     date: '01 August 2024',
-    description: 'An introductory lecture for students on the basics of radio astronomy, its history, and its significance in modern science.',
+    description: 'An invited Guest Sessin for students on the evolution of Astronomy and its applications in Engineering and Sciences.',
     image: 'https://github.com/user-attachments/assets/4d0432c0-604a-4f3c-9575-13b221ca8ccf',
   },
   {
@@ -41,6 +41,20 @@ const lectures: Lecture[] = [
     topic: 'Introductory Astronomy and Carreer Opportunities',
     date: '23 August 2025',
     description: 'A talk focused on the importance of making astronomy education accessible and engaging for all age groups.',
+    image: 'https://github.com/user-attachments/assets/b7ab1363-3c1c-4d11-9e9f-16bb25196938',
+  },
+  {
+    institute: 'Veermata Jijabai Technological Institute (VJTI-Mumbai)',
+    topic: 'ORION- Data Science in Asronomy',
+    date: '04 November 2025',
+    description: 'A Python Guided Workshop focusing on Data Science in Astronomy. Students were taught to use Python from basics and implement it on SDSS dataset.',
+    image: 'https://github.com/user-attachments/assets/b7ab1363-3c1c-4d11-9e9f-16bb25196938',
+  },
+  {
+    institute: 'Vishwakarma Institute of Technology (VIT-Pune)',
+    topic: 'Predictive AI Models for Disaster Management',
+    date: '02 December 2025',
+    description: 'A Faculty Development Program organised by VIT (AI) dept. focusing on Advancements of AI in different sectors.',
     image: 'https://github.com/user-attachments/assets/b7ab1363-3c1c-4d11-9e9f-16bb25196938',
   },
 ];
@@ -76,5 +90,6 @@ const MyLectures: React.FC = () => {
     </section>
   );
 };
+
 
 export default MyLectures;
